@@ -1,0 +1,67 @@
+.login{
+    height: 100vh;
+    padding: 20px 8%;
+   
+    background-image: linear-gradient(#0000007e,#0000007e), url('/mountains_rocks_stones_1285735_1366x768.jpg');
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius:4px ;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-direction: column;
+
+   
+}
+.login-form h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    text-align: center;
+
+}
+.login-form input{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    margin: 12px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 25px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-form input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-form button{
+    width: 40%;
+    border: 0;
+    padding: 16px;
+    outline: 0;
+    background-color: gold;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.login-form p{
+    text-decoration:underline;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    margin-top: 120px;
+    width: 80%;
+    border-radius: 10px;
+    
+}
+
+.grid-item{
+    width: 250px;
+    height: 300px;
+    border: 1px solid wheat;
+}
+.image{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    border: 1px solid wheat;
+    
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.details button{
+    width: 117px;
+    height:40px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: gold;
+}
+.details p{
+    font-weight:bold;
+}

@@ -1,0 +1,74 @@
+.Main-div{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.button-div{
+    width: 90%;
+    height: 50px;
+    margin-top: 100px;
+}
+.button-div button{
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    font-family: poppins;
+}
+.Table{
+    height:50%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.188);
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin-top: 10px;
+    margin-top: 30px;
+}
+.table::-webkit-scrollbar{
+    display: none;
+}
+.Table{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.headings{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    color: rgb(251, 243, 243);
+    font-weight: 500;
+    background-color: rgb(83, 83, 83);
+}
+.heads{
+    
+    width: 150px;
+    overflow: hidden;
+    
+}
+.contents{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    color: rgb(255, 253, 253);
+    margin-top: 40px;
+}
+.operation{
+    display: flex;
+    width: 100px;
+    justify-items: center;
+}
+.heads img{
+    width: 50px;
+
+}
+.operation img{
+    width: 30px;
+    
+}

@@ -5,6 +5,7 @@ import { Navbar } from './Component/Navbar/Navbar'
 import { Home } from './Pages/User/Home/Home'
 import { Profile } from './Pages/User/Profile/Profile'
 import { AdLogin } from './Pages/Admin/Login/AdLogin'
+import { Dash } from './Pages/Admin/AdminDashboard/Dash'
 
 import './App.css'
 
@@ -12,11 +13,13 @@ function App() {
  
 
   return (
-    <>
-    {/* <Navbar/> */}
-    <AdLogin/>
+    
+    <Dash/>
+    // <>
+    // {/* <Navbar/> */}
+    
   
-    </>
+    // </>
   ) 
 
 }

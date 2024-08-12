@@ -9,12 +9,8 @@ export const Dash = () => {
     { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
     { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
     { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
-    { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
-    { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
-    { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
-    { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
-    { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
-    { userName: "Shamal", email: "Shamal@gmail.com", phone: "8086464679" },
+    
+    
   ]);
   return (
     <>
